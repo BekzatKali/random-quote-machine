@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.AppForQuotesMainContainer{
+  background-color: bisque;
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  transition: all 1.6s ease;
+  
+}
+#quote-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 730px;
+  padding: 0 15px;
+  margin: 0 auto;
+  
+}
+.Quotes {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  transition: all 1.6s ease;
+  width: 100%;
+}
+#new-quote {
+  width: fit-content;
+  height: 100%;
+  padding: 10px;
+  align-self: flex-end;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  transition: all 1.6s ease;
+  cursor: pointer;
+
+}
+.quotes-btn-wrapper {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.appCreatorName {
+  color: white;
+  margin-top: 10px;
+}
+
+#tweet-quote {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 1.6s ease;
+}
+
+.logoTwitterImg {
+  width: fit-content;
+  height: 100%;
+}
+
+
+
+
